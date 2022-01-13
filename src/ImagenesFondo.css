@@ -1,0 +1,59 @@
+.fotoContainer{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+
+}
+.fotoFondo{
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -ms-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+     opacity: 1;
+}
+.sup{
+    position:absolute;
+    left:50%;
+    bottom: 20%;
+    transform: translate(-50%, 0);
+    border: 2px solid white;
+    padding:10px 15px;
+    text-decoration: none;
+    color:white
+}
+.titulo{
+    position:absolute;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    left:50%;
+    bottom: 40%;
+    transform: translate(-50%, 0);
+    color:white;
+    margin:0;
+    width:80%;
+    text-align: center;
+}
+.titulo h1{
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
+.titulo h2{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+
+.ig{
+    position:absolute;
+    left:50%;
+    bottom: 5%;
+    transform: translate(-50%, 0);
+    color:rgb(41, 75, 48);
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 9px;
+    background-color: white;
+}

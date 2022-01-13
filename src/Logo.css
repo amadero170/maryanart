@@ -1,0 +1,17 @@
+.logoContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: block;
+    width:clamp(80px,13vw,150px);
+    height:clamp(80px,13vw,150px);
+    object-fit: cover;
+    z-index: 1;
+
+    
+}
