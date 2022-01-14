@@ -1,27 +1,28 @@
 .fotoContainer{
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
+    min-width: fit-content;
 
 }
 .fotoFondo{
     object-fit: cover;
+    min-width: 250px;
     width:100%;
     height: 100%;
-    -webkit-transition: opacity 3s ease-in-out;
-    -moz-transition: opacity 3s ease-in-out;
-    -ms-transition: opacity 3s ease-in-out;
-    -o-transition: opacity 3s ease-in-out;
-     opacity: 1;
+    display: block;
+
 }
 .sup{
     position:absolute;
+    display: flex;
     left:50%;
     bottom: 20%;
     transform: translate(-50%, 0);
     border: 2px solid white;
     padding:10px 15px;
     text-decoration: none;
-    color:white
+    color:white;
+    font-size: clamp(14px,16px,3vw);
 }
 .titulo{
     position:absolute;
@@ -36,12 +37,12 @@
     text-align: center;
 }
 .titulo h1{
-    font-size: 60px;
+    font-size: clamp(25px,60px,12vw);
     font-weight: 400;
     letter-spacing: 15px;
 }
 .titulo h2{
-    font-size: 30px;
+    font-size: clamp(15px,30px,6vw);
     font-weight: 400;
     letter-spacing: 10px;
 }
